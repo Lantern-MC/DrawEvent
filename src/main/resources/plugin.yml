@@ -1,0 +1,7 @@
+name: DrawEvent
+version: '${project.version}'
+main: net.lanternmc.drawevent.DrawEvent
+api-version: 1.19
+description: ForWeGeek
+depend:
+  - WGCore
