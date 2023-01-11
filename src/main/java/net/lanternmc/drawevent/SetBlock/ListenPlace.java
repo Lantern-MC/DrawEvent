@@ -6,6 +6,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockPlaceEvent;
+import org.bukkit.event.player.PlayerMoveEvent;
 
 public class ListenPlace implements Listener {
 
@@ -24,6 +25,8 @@ public class ListenPlace implements Listener {
 
     // 区域给予创造与创造判定
     @EventHandler
-    public void onChange()
+    public void onChange(PlayerMoveEvent e) {
+        //判定
+    }
 
 }
